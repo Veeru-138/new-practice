@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Talent</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Student Talent</h1>
+    </header>
+    <main>
+        <section id="input-section">
+            <h2>Add Student</h2>
+            <div class="form-container">
+                <input type="text" id="name-input" placeholder="Naaaame">
+                <input type="text" id="roll-input" placeholder="Roll Nuuumber">
+                <input type="text" id="branch-input" placeholder="Branch">
+                <input type="text" id="talent-input" placeholder="Talent">
+                <input type="text" id="year-input" placeholder="Year">
+                <button id="add-button">Add</button>
+            </div>
+        </section>
+        <section id="search-section">
+            <h2>Search Student</h2>
+            <div class="form-container">
+                <input type="text" id="search-input" placeholder="Enter student's name">
+                <button id="search-button">Search</button>
+            </div>
+        </section>
+        <section id="output-section">
+            <h2>Student Details</h2>
+            <ul id="student-list">
+                <!-- Student details will be displayed here -->
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Student Talent</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
